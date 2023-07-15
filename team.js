@@ -1,5 +1,4 @@
 let newArr = [
-
     {
         name: "Luca",
         surname: "Campo",
@@ -48,5 +47,18 @@ let newArr = [
         favoriteFilm: "Interstellar, Inception",
         favoriteBook: "Viva la vida! di Frida Kahlo",
         petName: "Tommy"
+    },
+    {
+        name: "Nicola",
+        surname: "Marcì",
+        age: 26,
+        city: "Siracusa",
+        hobby: "Gaming",
+        favotiteFood: "Panino carne di Cavallo",
+        favoriteVideoGame: "Call Of Duty",
+        favoriteFilm: "Shutter Island,Inception",
+        favoriteBook: "Educazione Siberiana",
+        petName: "Erik",
     }
+
 ]
