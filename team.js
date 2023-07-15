@@ -36,8 +36,6 @@ let newArr = [
         favoriteBook: "Io non ho paura",
         petName: "Aaron"
     },
-
-
     {
 
         name: "Claudia",
