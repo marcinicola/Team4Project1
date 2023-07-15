@@ -60,5 +60,4 @@ let newArr = [
         favoriteBook: "Educazione Siberiana",
         petName: "Erik",
     }
-
 ]
