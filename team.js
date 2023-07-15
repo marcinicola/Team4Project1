@@ -23,4 +23,16 @@ let newArr = [
         favoriteBook:"A song of ice and fire",
         petName:"niente"
       },
+      { 
+        name:"Manfredi",
+        surname:"Lo Menzo",
+        age:21,
+        city:"palermo",
+        hobby:"Videogiochi",
+        favoriteFood:"Pizza",
+        favoriteVideoGame:"Hollow Knight",
+        favoriteFilm:"The Truman Show",
+        favoriteBook:"Io non ho paura",
+        petName:"Aaron"
+      },
    ]
