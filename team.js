@@ -21,7 +21,7 @@ let newArr = [
         favoriteVideoGame: "LOL",
         favoriteFilm: "The Godfather",
         favoriteBook: "A song of ice and fire",
-        petName: "niente"
+        petName: " "
     },
     {
         name: "Manfredi",
@@ -62,3 +62,11 @@ let newArr = [
     }
 
 ]
+function petName(newArr) {
+    for (let i = 0; i < newArr.length; i++) {
+        if (newArr[i].petName) {
+            console.log(newArr[i].name + " possiede " + newArr[i].petName);
+        }
+    }
+}
+petName(newArr);
