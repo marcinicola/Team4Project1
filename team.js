@@ -62,3 +62,14 @@ let newArr = [
     }
 
 ]
+
+
+// Funzione di Luca
+
+newArr.sort((a, b)=> {
+    return a.age - b.age;
+  });
+
+  newArr.forEach((ageNewArr)=> {
+    console.log(ageNewArr.name + " " + ageNewArr.age);
+  });
