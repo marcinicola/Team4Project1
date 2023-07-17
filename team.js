@@ -90,6 +90,7 @@ function petName(newArr) {
             console.log(newArr[i].name + " possiede " + newArr[i].petName);
         }
     }
+
 }
 petName(newArr);
 
@@ -102,4 +103,16 @@ newArr.sort((a, b)=> {
   newArr.forEach((ageNewArr)=> {
     console.log(ageNewArr.name + " " + ageNewArr.age);
   });
+
+
+//funzione Davide
+function findLOLPlayers(newArr) {
+    for (let i = 0; i < newArr.length; i++) {
+      if (newArr[i].favoriteVideoGame === "LOL" || newArr[i].favoriteVideoGame === "League Of Legends") {
+        console.log(newArr[i].name);
+      }
+    }
+    
+}
+findLOLPlayers(newArr)
 
