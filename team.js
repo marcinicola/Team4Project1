@@ -61,3 +61,15 @@ let newArr = [
         petName: "Erik",
     }
 ]
+
+
+//funzione Davide
+function findLOLPlayers(newArr) {
+    for (let i = 0; i < newArr.length; i++) {
+      if (newArr[i].favoriteVideoGame === "LOL" || newArr[i].favoriteVideoGame === "League Of Legends") {
+        console.log(newArr[i].name);
+      }
+    }
+    
+}
+findLOLPlayers(newArr)
